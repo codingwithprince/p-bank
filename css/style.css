@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+#welcome-section{
+    padding-top: 100px;
+}
+.login-form{
+    margin: 100px;
+    box-shadow: 1px 5px 10px lightgray;
+    padding: 30px;
+    border-radius: 10px;
+}
+.login-form h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.form-box input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login-btn{
+    margin-top: 20px;
+}
+#main-area{
+    display: none;
+    margin-top: 100px;
+}
+#main-area h1{
+    margin-bottom: 100px;
+}
+.box-item{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+.box-item p{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+.box-item h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.transition-area{
+    margin-top: 100px;
+}
+.d-form{
+    padding: 40px;
+    box-shadow: 2px 8px 15px gray;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.d-form h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.d-form input{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+/* media */
+
+@media only screen and (max-width: 550px) {
+   
+    .login-form{
+        margin: 30px;
+    }
+}
