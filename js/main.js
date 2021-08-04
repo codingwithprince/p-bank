@@ -11,7 +11,9 @@ const depositButton = document.getElementById('deposit-btn');
  depositButton.addEventListener('click', function (){
      let depositInputAmount = document.getElementById('deposit-amount').value;
      let depositInputNumber = parseFloat(depositInputAmount);
-     console.log(depositInputNumber);
-  document.getElementById('db').innerText = depositInputNumber;
-
+     document.getElementById('db').innerText = depositInputNumber;
+     let balance = document.getElementById('balance').innerText;
+     let balanceToNumber = parseFloat(balance);
+     let totalBalance = balanceToNumber + depositInputNumber;
+     document.getElementById('balance').innerText = totalBalance;
  })
