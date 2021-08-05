@@ -30,19 +30,19 @@
           <div class="col-md-4  text-center">
             <div class="box-item bg-dark">
               <p>Deposit</p>
-               <h3 id="deposit">0 $</h3>
+               <h3>$ <span id="deposit">00</span> </h3>
             </div>
           </div>
           <div class="col-md-4 text-center">
             <div class="box-item bg-danger">
               <p>Withdraw</p>
-            <h3>0 $</h3>
+              <h3>$ <span id="withdraw">00</span> </h3>
             </div>  
           </div>
           <div class="col-md-4  text-center">
             <div class="box-item bg-success">
               <p>Balance</p>
-              <h3 id="balance">1200 $</h3>
+              <h3> $ <span id="balance">1200</span></h3>
             </div> 
           </div>
         </div>
@@ -51,21 +51,22 @@
             <div class="col-md-6">
               <div class="d-form">
                 <h3>Deposit</h3>
-                <input value="0" id="deposit-amount" placeholder="Amount you want to deposit." type="number" class="form-control">
+                <input value="0" id="deposit-amount" placeholder="Amount you want to deposit." type="text" class="form-control">
                 <button id="deposit-btn" class="btn btn-success">Deposit</button>
               </div>
             </div>
             <div class="col-md-6">
               <div class="d-form">
                 <h3>Withdraw</h3>
-                <input value="0" placeholder="Amount you want to withdraw." type="text" class="form-control">
-                <button class="btn btn-success">Withdraw</button>
+                <input value="0" id="withdrawAmount" placeholder="Amount you want to withdraw." type="text" class="form-control">
+                <button id="withdrawButton" class="btn btn-success">Withdraw</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    
 
     <!-- Optional JavaScript -->
     <script src="js/main.js"></script>
